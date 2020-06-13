@@ -5,7 +5,8 @@ const extensionConfig = vscode.workspace.getConfiguration('lpp');
 var nrc = require('child_process');
 function compilePath(path){
 	if(path.endsWith(".lpp")){
-		var command = `java -jar "${extensionConfig.get("jar-path")}" "${path}"`;
+		console.log()
+		var command = `java -jar "${extensionConfig.get("transpiler")}" "${path}"`;
 		nrc.exec(command);
 	}
 }

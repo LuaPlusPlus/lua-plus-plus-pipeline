@@ -2,7 +2,7 @@
 	"name": "lpp-pipeline",
 	"displayName": "lpp-pipeline",
 	"description": "Makes using lua++ script easy.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
